@@ -1,0 +1,50 @@
+html {
+	font-size: 20px
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 0 1em;
+	background-color: gainsboro;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 0.5em 0;
+  line-height: 1em;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover, a:active, a:focus {
+  color: darkblue;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+pre, code, samp, kbd {
+  color: #009;
+  font-family: monospace, monospace;
+  font-size: 0.9em;
+}
+
+pre code, pre samp, pre kbd {
+  font-size: 1em;
+}
+pre kbd {
+  color: #060;
+}
+
+pre {
+  background: #eee;
+  padding: 0.5em;
+  overflow: auto;
+}
