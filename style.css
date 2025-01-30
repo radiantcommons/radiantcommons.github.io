@@ -1,11 +1,11 @@
 html {
-	font-size: 20px
+	font-size: 18px
 }
 
 body {
-  font-family: sans-serif;
+  font-family: serif;
   line-height: 1.5;
-  margin: 0 auto;
+  margin: 2rem auto;
   max-width: 40em;
   padding: 0 1em;
 	background-color: gainsboro;
@@ -47,4 +47,8 @@ pre {
   background: #eee;
   padding: 0.5em;
   overflow: auto;
+}
+
+#banner {
+  max-width: 33%;
 }
